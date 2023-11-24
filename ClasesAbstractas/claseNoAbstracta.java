@@ -1,13 +1,14 @@
 package ClasesAbstractas;
 /*
- * #Mediante "extends claseAbstracta", la claseNoAbstracta podrá reemplazar el método abstracto de la clase abstracta.
- * #De manera que cada clase que extienda a la claseAbstracta, podrá tener su propio método abstracto personal.
+ * # Cada clase que "extends claseAbstracta" va a poder usar los métodos abstractos y no abstractos de la claseAbstracta
+ * # Métodos abstractos: la claseNoAbstracta podrá modificar el método abstracto a su gusto, haciendolo un método personal.
+ * # Métodos no abstractos: la claseNoAbstracta no puede modifcar los métodos no abstractos, solo puede utilizarlos.
  * 
  */
 public class claseNoAbstracta extends claseAbstracta {
     claseNoAbstracta()
     {
-        
+
     }
     
     public void hacerAlgoAbstracto()
