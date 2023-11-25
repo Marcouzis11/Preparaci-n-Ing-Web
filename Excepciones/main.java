@@ -8,7 +8,7 @@ public class main {
 
         try 
         {
-            clase.agregar(16);
+            clase.agregar(16); //Solo se puede tener un maximo de 15, modificar este numero para superar el maximo y que salte la excepcion.
         }
         catch (Exception e)
         {
